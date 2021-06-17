@@ -108,4 +108,24 @@
         app:layout_constraintTop_toBottomOf="@+id/lastName"
         app:layout_constraintVertical_bias="0.235" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jello Turtle"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="#343aeb"
+        android:id="@+id/textWelcome"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop="15dp"
+        android:background="#343aeb"
+        android:onClick="onClick"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
